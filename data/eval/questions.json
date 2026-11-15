@@ -1,0 +1,443 @@
+[
+  {
+    "id": "Q01",
+    "type": "CG",
+    "cp": "cp_01_luko_etendue.pdf",
+    "question": "Dans quel délai dois-je déclarer un vol à mon assureur ?",
+    "reponse_attendue": "Dans les 2 jours ouvrés après en avoir eu connaissance, via l'application Luko. Il faut aussi prévenir immédiatement les autorités, envoyer l'original du dépôt de plainte, et fournir l'état des pertes sous 8 jours (à remettre aussi à la police ou à la gendarmerie). Si la déclaration est en retard et que ce retard cause un préjudice à l'assureur, l'assuré perd son droit à indemnité (déchéance).",
+    "sources": [
+      {
+        "fichier": "luko_habitation-etendue_cg_2504.pdf",
+        "pages": [
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q02",
+    "type": "CG",
+    "cp": "cp_01_luko_etendue.pdf",
+    "question": "Que dois-je faire en cas de dégât des eaux dans mon appartement ?",
+    "reponse_attendue": "1) Limiter les dégâts tout de suite (couper l'eau, protéger les biens). 2) Déclarer le sinistre via l'application Luko dans les 5 jours ouvrés : date, circonstances, cause, montant approximatif, lieu, coordonnées des personnes lésées, responsables ou témoins. 3) Envoyer un état des pertes signé sous 30 jours et accepter l'expertise. Luko peut donner les numéros de plombiers de dépannage dans un rayon de 30 km. La garantie couvre les fuites, ruptures et débordements, les infiltrations, la recherche de fuite (5 000 €/sinistre) et la surconsommation d'eau (5 000 €). Attention : en cas d'absence de plus de 3 jours ou de gel, les mesures de prévention sont obligatoires, sinon l'indemnité est divisée par deux.",
+    "sources": [
+      {
+        "fichier": "luko_habitation-etendue_cg_2504.pdf",
+        "pages": [
+          18,
+          19,
+          20,
+          58,
+          67,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q03",
+    "type": "CG",
+    "cp": "cp_02_luko_minimum.pdf",
+    "question": "Que couvre la responsabilité civile locative ?",
+    "reponse_attendue": "Dans la formule Minimum, c'est la « RC Incendie / Dégât des eaux ». Elle couvre les dommages matériels et les pertes pécuniaires causés au propriétaire (vos risques locatifs, si vous êtes locataire ou occupant à titre gratuit), ainsi qu'aux voisins et aux tiers (colocataires compris), quand ces dommages viennent d'un incendie ou d'un dégât des eaux survenu dans le logement assuré. Plafond : 10 000 000 €/sinistre. Exclus : les dommages à vos propres biens ou à ceux dont vous avez la garde. Extension « Voyage-Cocktail » : location de vacances de 90 jours maximum et salle louée pour une fête de 72 h maximum.",
+    "sources": [
+      {
+        "fichier": "luko_habitation-minimum_cg_2504.pdf",
+        "pages": [
+          30,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q04",
+    "type": "CG",
+    "cp": "cp_03_sogessur_F190315.pdf",
+    "question": "Dans quel délai dois-je déclarer un sinistre catastrophe naturelle ?",
+    "reponse_attendue": "Dès que vous en avez connaissance, et au plus tard dans les 30 jours après la publication de l'arrêté de catastrophe naturelle.",
+    "sources": [
+      {
+        "fichier": "sg_mrh_cg_F190315-2025-04.pdf",
+        "pages": []
+      }
+    ],
+    "note": "PIÈGE D'EXTRACTION : dans la version F 190 315 (04/2025), le tableau des délais (p. 31) est illisible dans le .md (texte éclaté lettre par lettre). La réponse vient des versions D 190 315 (01/2024, p. 31) et H 190 315 (06/2026, p. 32), qui sont aussi dans le corpus. À vérifier sur le PDF F."
+  },
+  {
+    "id": "Q05",
+    "type": "CG",
+    "cp": "cp_03_sogessur_F190315.pdf",
+    "question": "Les dommages causés par l'humidité ou la condensation sont-ils couverts au titre des dégâts des eaux ?",
+    "reponse_attendue": "Non. Les dommages dus à l'humidité ou à la condensation sont exclus, sauf s'ils sont la conséquence directe d'un sinistre garanti (par exemple une fuite de canalisation garantie).",
+    "sources": [
+      {
+        "fichier": "sg_mrh_cg_F190315-2025-04.pdf",
+        "pages": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q06",
+    "type": "CG",
+    "cp": "cp_03_sogessur_F190315.pdf",
+    "question": "Comment puis-je résilier mon contrat ?",
+    "reponse_attendue": "Après 1 an de contrat : à tout moment, sans frais, avec effet 1 mois après réception de la demande. Sinon, à l'échéance annuelle avec 1 mois de préavis (ou dans les 20 jours après l'avis d'échéance s'il a été envoyé moins de 45 jours avant). Autres cas : changement de situation (dans les 3 mois), hausse de cotisation (dans le mois), etc. Moyens : lettre ou autre support durable, déclaration au siège ou chez le représentant, acte extrajudiciaire, le même canal à distance, ou le formulaire en ligne Société Générale. Le recommandé est conseillé : moncontrat@SGassurances.com ou SOGESSUR - TSA 91102 - 92894 Nanterre Cedex 9.",
+    "sources": [
+      {
+        "fichier": "sg_mrh_cg_F190315-2025-04.pdf",
+        "pages": [
+          37,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q07",
+    "type": "CG",
+    "cp": "cp_04_gmf_domopass.pdf",
+    "question": "Dans quel délai l'assureur doit-il m'indemniser après un accord sur le montant ?",
+    "reponse_attendue": "En catastrophe naturelle : dans les 21 jours suivant votre accord sur la proposition (ou mission d'une entreprise de réparation sous 1 mois). Pour les autres garanties dommages, les CG ne fixent pas de délai après accord : la proposition (ou une avance) arrive dans les 60 jours suivant la remise de l'état de pertes. Au-delà des délais, l'indemnité porte intérêt au taux légal.",
+    "sources": [
+      {
+        "fichier": "gmf_domopass_cg_2023-01.pdf",
+        "pages": [
+          87,
+          88
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q08",
+    "type": "CG",
+    "cp": "cp_04_gmf_domopass.pdf",
+    "question": "Comment est défini un objet de valeur ?",
+    "reponse_attendue": "Ce sont les objets contenus dans l'habitation : bijoux et objets en métaux précieux, pierres précieuses ou fines, perles ; fourrures naturelles ; tableaux, sculptures, tapisseries, tapis et livres de collection d'au moins 1 000 € l'unité ; collections d'au moins 5 000 € ; antiquités de plus de 100 ans d'au moins 10 000 € l'unité. Ils ne sont assurés que si les CP le prévoient. Exclus : ceux placés dans les dépendances ou en villégiature, les lingots et pièces en métaux précieux, les espèces et les moyens de paiement.",
+    "sources": [
+      {
+        "fichier": "gmf_domopass_cg_2023-01.pdf",
+        "pages": [
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q09",
+    "type": "CG",
+    "cp": "cp_05_matmut_residence_principale.pdf",
+    "question": "Quelles conditions doivent être réunies pour qu'un vol soit couvert ?",
+    "reponse_attendue": "1) Le voleur entre (ou tente d'entrer) par effraction ou avec de fausses clés, clandestinement ou par ruse quand l'occupant est présent, ou avec violences ou menaces. 2) Les moyens de fermeture obligatoires existent et fonctionnent : serrure 2 points (ou 1 point + verrou ou alarme) ; volets, barreaux de 11 cm maximum, verre feuilleté ou alarme pour les ouvertures à moins de 3 m du sol ; télésurveillance APSAD P3 si le mobilier dépasse 150 000 € ou les bijoux 50 000 €. 3) Ils sont utilisés : portes fermées à clé la nuit et en cas d'absence, volets fermés si l'absence dépasse 24 h. Sinon, l'indemnité est réduite de 50 %. Exclus : parties communes, clés laissées dans la boîte aux lettres ou confiées à un non-assuré.",
+    "sources": [
+      {
+        "fichier": "matmut_residence-principale_cg.pdf",
+        "pages": [
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q10",
+    "type": "CG",
+    "cp": "cp_05_matmut_residence_principale.pdf",
+    "question": "Quelles sont les exclusions communes à toutes les garanties ?",
+    "reponse_attendue": "Article 29. Pour toutes les garanties : faute intentionnelle ou dolosive ; paris et défis ; mobile-homes, caravanes, tiny-houses ; données informatiques, virus et piratage ; dommages immatériels non consécutifs à un dommage garanti ; glissements de terrain, séismes, tsunamis (sauf catastrophe naturelle) ; terrassement fait par vous ; tunnels et barrages ; guerre ; émeutes (sauf incendie, explosion ou bris de glaces) ; sabotage ; termites et champignons ; amiante et plomb ; nucléaire (sauf attentat) ; dommages causés par les forces de l'ordre ; dommages à Enedis. En RC, en plus : dommages aux non-tiers, atteintes à la vie privée sur internet, explosifs et pétards, véhicules à moteur, drones de plus de 800 g, bateaux, syndic, décennale, etc.",
+    "sources": [
+      {
+        "fichier": "matmut_residence-principale_cg.pdf",
+        "pages": [
+          50,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q11",
+    "type": "CP",
+    "cp": "cp_01_luko_etendue.pdf",
+    "question": "Quel est le montant de ma franchise ?",
+    "reponse_attendue": "150 € par sinistre.",
+    "sources": [
+      {
+        "fichier": "cp_01_luko_etendue.pdf",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "Q12",
+    "type": "CP",
+    "cp": "cp_03_sogessur_F190315.pdf",
+    "question": "Pour quel montant mon mobilier est-il assuré ?",
+    "reponse_attendue": "40 000 €, dont 8 000 € pour les objets de valeur.",
+    "sources": [
+      {
+        "fichier": "cp_03_sogessur_F190315.pdf",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "Q13",
+    "type": "CP",
+    "cp": "cp_04_gmf_domopass.pdf",
+    "question": "Ai-je souscrit la garantie bris de glace ?",
+    "reponse_attendue": "Non, la garantie bris de glace n'est pas souscrite.",
+    "sources": [
+      {
+        "fichier": "cp_04_gmf_domopass.pdf",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "Q14",
+    "type": "CP",
+    "cp": "cp_05_matmut_residence_principale.pdf",
+    "question": "Depuis quelle date mon contrat est-il en vigueur ?",
+    "reponse_attendue": "Depuis le 10/01/2025.",
+    "sources": [
+      {
+        "fichier": "cp_05_matmut_residence_principale.pdf",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "Q15",
+    "type": "CP",
+    "cp": "cp_02_luko_minimum.pdf",
+    "question": "Quelle formule ai-je souscrite ?",
+    "reponse_attendue": "La formule Minimum Légal.",
+    "sources": [
+      {
+        "fichier": "cp_02_luko_minimum.pdf",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "Q16",
+    "type": "CG+CP",
+    "cp": "cp_01_luko_etendue.pdf",
+    "question": "Suis-je couvert si on me vole mon vélo dans ma cave ?",
+    "reponse_attendue": "Oui, sous conditions. Le vol est garanti s'il y a effraction, escalade, fausses clés, etc. Deux cas : si la cave communique directement avec le logement, elle fait partie du logement ; sinon, c'est une dépendance, couverte seulement si elle est déclarée aux CP. Le contenu des dépendances est plafonné à 2 000 €/sinistre, et la porte doit être pleine avec une serrure. Franchise : 150 € (CP). Il faut porter plainte et déclarer dans les 2 jours ouvrés.",
+    "sources": [
+      {
+        "fichier": "cp_01_luko_etendue.pdf",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "fichier": "luko_habitation-etendue_cg_2504.pdf",
+        "pages": [
+          12,
+          23,
+          24,
+          25,
+          26,
+          67,
+          94
+        ]
+      }
+    ],
+    "note": "La déclaration de la cave dans les CP n'est pas vérifiable : les CP ne sont pas dans le .md."
+  },
+  {
+    "id": "Q17",
+    "type": "CG+CP",
+    "cp": "cp_02_luko_minimum.pdf",
+    "question": "Si on cambriole mon studio, mes affaires seront-elles remboursées ?",
+    "reponse_attendue": "Non. La formule Minimum Légal ne contient pas de garantie vol. Elle couvre l'incendie, les dégâts des eaux, les événements climatiques, les catastrophes naturelles et technologiques, les attentats et la responsabilité civile. Les affaires volées ne sont donc pas remboursées.",
+    "sources": [
+      {
+        "fichier": "cp_02_luko_minimum.pdf",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "fichier": "luko_habitation-minimum_cg_2504.pdf",
+        "pages": [
+          5,
+          6
+        ]
+      }
+    ],
+    "note": "Réponse déduite du sommaire des CG Minimum : aucune section Vol."
+  },
+  {
+    "id": "Q18",
+    "type": "CG+CP",
+    "cp": "cp_03_sogessur_F190315.pdf",
+    "question": "Un orage a grillé ma télévision : suis-je couvert et combien restera à ma charge ?",
+    "reponse_attendue": "Ça dépend de la formule. La garantie Incendie exclut les dommages de la foudre aux appareils électriques non fixes. La télévision n'est couverte que par la garantie Dommages électriques : formule Confort avec cette option, ou formule Optimale. Indemnisation selon l'âge : valeur à neuf si moins de 2 ans ; puis 50 % de la valeur à neuf (Confort + option) ou valeur à neuf (Optimale) de 2 à 4 ans ; 50 % de 4 à 6 ans ; 10 % au-delà. Reste à charge = franchise des CP + part de vétusté.",
+    "sources": [
+      {
+        "fichier": "cp_03_sogessur_F190315.pdf",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "fichier": "sg_mrh_cg_F190315-2025-04.pdf",
+        "pages": [
+          4,
+          15,
+          33
+        ]
+      }
+    ],
+    "note": "La formule et la franchise sont dans les CP, absentes du .md. Le paragraphe Franchise de la version F (p. 31) est illisible dans l'extraction."
+  },
+  {
+    "id": "Q19",
+    "type": "CG+CP",
+    "cp": "cp_04_gmf_domopass.pdf",
+    "question": "Ma fenêtre a été cassée pendant une tempête : suis-je couvert ?",
+    "reponse_attendue": "Oui, par la garantie Tempête-Grêle-Neige (et non par Bris de vitres, qui n'est pas souscrite). Elle couvre les dommages matériels causés par le vent ou par un objet projeté par le vent, et aussi la pluie qui entre dans les 48 h. Franchise indexée, indiquée aux CP. En cas de contestation, une attestation météo peut être demandée (vent de plus de 100 km/h).",
+    "sources": [
+      {
+        "fichier": "cp_04_gmf_domopass.pdf",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "fichier": "gmf_domopass_cg_2023-01.pdf",
+        "pages": [
+          45,
+          46,
+          47
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "Q20",
+    "type": "CG+CP",
+    "cp": "cp_05_matmut_residence_principale.pdf",
+    "question": "Une fuite chez moi a abîmé l'appartement du voisin du dessous : qui paie et que reste-t-il à ma charge ?",
+    "reponse_attendue": "La Matmut paie les dommages du voisin au titre de votre responsabilité civile : garantie « Recours des voisins et des tiers » (art. 12-1 A si vous êtes propriétaire, 12-2 B si vous êtes locataire), plafond de 5 000 000 €. Vos propres dommages relèvent de la garantie Dégâts des eaux (art. 15). Reste à votre charge : la franchise indiquée aux CP (art. 37). Aucune franchise ne s'applique aux dommages corporels causés aux tiers. Déclaration sous 5 jours ouvrés.",
+    "sources": [
+      {
+        "fichier": "cp_05_matmut_residence_principale.pdf",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "fichier": "matmut_residence-principale_cg.pdf",
+        "pages": [
+          11,
+          22,
+          23,
+          61,
+          62,
+          52
+        ]
+      }
+    ],
+    "note": "Montant de la franchise non vérifiable : les CP ne sont pas dans le .md."
+  },
+  {
+    "id": "Q21",
+    "type": "CG+CP",
+    "cp": "cp_05_matmut_residence_principale.pdf",
+    "question": "Ma porte d'entrée a été forcée la nuit : puis-je bénéficier d'un serrurier en urgence ?",
+    "reponse_attendue": "Oui. La garantie « Urgence après sinistre garanti » (art. 18) fait partie du contrat, ce n'est pas une option. Après un vol ou une tentative de vol, elle prend en charge l'envoi d'un serrurier : déplacement et 1re heure de main-d'œuvre. Il faut appeler Matmut Assistance 24 h/24 au 0 800 30 20 30 : les dépenses engagées de votre propre initiative sont exclues. La garantie Vol paie aussi le remplacement à l'identique des serrures détériorées. Porter plainte dans les 12 h et déclarer sous 2 jours ouvrés.",
+    "sources": [
+      {
+        "fichier": "cp_05_matmut_residence_principale.pdf",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "fichier": "matmut_residence-principale_cg.pdf",
+        "pages": [
+          27,
+          30,
+          31,
+          52
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "Q22",
+    "type": "HORS",
+    "cp": "cp_06_axa_hors_base.pdf",
+    "question": "Suis-je couvert en cas de dégât des eaux ?",
+    "reponse_attendue": "Le système doit indiquer que les CG de ce contrat (AXA Ma Maison) ne sont pas dans la base et ne pas répondre avec les CG d'un autre assureur.",
+    "sources": []
+  },
+  {
+    "id": "Q23",
+    "type": "HORS",
+    "cp": "cp_01_luko_etendue.pdf",
+    "question": "Mon contrat couvre-t-il les dommages à ma voiture garée dans la rue ?",
+    "reponse_attendue": "Non. Les biens assurés sont ceux qui se trouvent à l'intérieur des bâtiments, et la responsabilité civile exclut les véhicules terrestres à moteur soumis à l'assurance auto. Il faut une assurance auto. Seule exception : le choc d'un véhicule de tiers contre votre bâtiment.",
+    "sources": [
+      {
+        "fichier": "luko_habitation-etendue_cg_2504.pdf",
+        "pages": [
+          12,
+          13,
+          48
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q24",
+    "type": "HORS",
+    "cp": "cp_03_sogessur_F190315.pdf",
+    "question": "Combien coûtera ma cotisation l'année prochaine ?",
+    "reponse_attendue": "L'information n'est pas dans les documents : le système doit le dire (seule la cotisation actuelle, 412 € TTC/an, figure dans les CP).",
+    "sources": [
+      {
+        "fichier": "cp_03_sogessur_F190315.pdf",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "Q25",
+    "type": "HORS",
+    "cp": "cp_04_gmf_domopass.pdf",
+    "question": "Quel est le meilleur assureur habitation du marché ?",
+    "reponse_attendue": "Question hors périmètre : le système doit refuser de répondre et rester sur le contrat de l'utilisateur.",
+    "sources": []
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {"fichier": "luko_habitation-etendue_cg_2504.pdf",   "contrat_id": "luko_hce_2504",  "assureur": "Luko", "alias": ["Luko by Allianz Direct", "Allianz Direct"], "produit": "Habitation", "formule": "Couverture Étendue", "type_doc": "CG",   "reference": "HCE",  "edition": "2504"},
+  {"fichier": "luko_habitation-etendue_ipid_2504.pdf", "contrat_id": "luko_hce_2504",  "assureur": "Luko", "alias": ["Luko by Allianz Direct", "Allianz Direct"], "produit": "Habitation", "formule": "Couverture Étendue", "type_doc": "IPID", "reference": "HCE",  "edition": "2504"},
+  {"fichier": "luko_habitation-minimum_cg_2504.pdf",   "contrat_id": "luko_hmin_2504", "assureur": "Luko", "alias": ["Luko by Allianz Direct", "Allianz Direct"], "produit": "Habitation", "formule": "Minimum Légal",      "type_doc": "CG",   "reference": "HMIN", "edition": "2504"},
+
+  {"fichier": "sg_mrh_cg_D190315-2024-01.pdf", "contrat_id": "sg_D190315_2024-01", "assureur": "Société Générale", "alias": ["Sogessur", "SG"], "produit": "Assurance Habitation", "formule": null, "type_doc": "CG",   "reference": "D 190 315", "edition": "01/2024"},
+  {"fichier": "sg_mrh_cg_F190315-2025-04.pdf", "contrat_id": "sg_F190315_2025-04", "assureur": "Société Générale", "alias": ["Sogessur", "SG"], "produit": "Assurance Habitation", "formule": null, "type_doc": "CG",   "reference": "F 190 315", "edition": "04/2025"},
+  {"fichier": "sg_mrh_cg_G190315-2026-01.pdf", "contrat_id": "sg_G190315_2026-01", "assureur": "Société Générale", "alias": ["Sogessur", "SG"], "produit": "Assurance Habitation", "formule": null, "type_doc": "CG",   "reference": "G 190 315", "edition": "01/2026"},
+  {"fichier": "sg_mrh_ipid.pdf",               "contrat_id": "sg_ipid_version_inconnue", "assureur": "Société Générale", "alias": ["Sogessur", "SG"], "produit": "Assurance Habitation", "formule": null, "type_doc": "IPID", "reference": null, "edition": null},
+
+  {"fichier": "gmf_domopass_cg_2023-01.pdf", "contrat_id": "gmf_domopass_2023-01", "assureur": "GMF", "alias": ["La Garantie Mutuelle des Fonctionnaires"], "produit": "Domo Pass", "formule": null, "type_doc": "CG",   "reference": null, "edition": "01/2023"},
+  {"fichier": "gmf_domopass_ipid.pdf",       "contrat_id": "gmf_domopass_2023-01", "assureur": "GMF", "alias": ["La Garantie Mutuelle des Fonctionnaires"], "produit": "Domo Pass", "formule": null, "type_doc": "IPID", "reference": null, "edition": null},
+
+  {"fichier": "matmut_residence-principale_cg.pdf",   "contrat_id": "matmut_rp", "assureur": "Matmut", "alias": [], "produit": "Habitation Résidence Principale", "formule": null, "type_doc": "CG",   "reference": null, "edition": null},
+  {"fichier": "matmut_residence-principale_ipid.pdf", "contrat_id": "matmut_rp", "assureur": "Matmut", "alias": [], "produit": "Habitation Résidence Principale", "formule": null, "type_doc": "IPID", "reference": null, "edition": null}
+]
