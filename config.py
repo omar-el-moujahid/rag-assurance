@@ -29,6 +29,9 @@ CHUNK_OVERLAP = 150
 
 # Recherche
 TOP_K = 5
+RERANK = False                              # False = recherche vectorielle seule (baseline v1)
+RERANK_MODEL = "BAAI/bge-reranker-v2-m3"
+N_CANDIDATS = 20                           # candidats donnés au reranker
 
 PROMPT = """Tu es un assistant qui aide un assuré à comprendre SON contrat d'assurance habitation.
 
