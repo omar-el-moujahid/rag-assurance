@@ -12,6 +12,7 @@ from typing import Optional
 from pydantic import BaseModel, Field
 from pypdf import PdfReader
 from langchain_ollama import ChatOllama
+from langsmith import traceable
 
 from config import CATALOGUE, LLM_MODEL
 
@@ -78,7 +79,6 @@ def trouver_contrat(fiche: FicheCP, texte_cp: str) -> Optional[str]:
     assureur = normaliser(fiche.assureur)
     ref_fiche = normaliser(f"{fiche.reference_cg} {lignes_cg(texte_cp)}")
     ref_et_edition = normaliser(f"{fiche.reference_cg} {fiche.edition_cg} {lignes_cg(texte_cp)}")
-    # ... la boucle et le return ne changent pas
 
     candidats = set()
     for e in catalogue:
@@ -94,7 +94,7 @@ def trouver_contrat(fiche: FicheCP, texte_cp: str) -> Optional[str]:
 
     return candidats.pop() if len(candidats) == 1 else None
 
-
+@traceable(name="analyser_cp")
 def analyser_cp(chemin):
     texte = lire_cp(chemin)
     try:

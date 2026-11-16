@@ -5,6 +5,8 @@ import os
 from dotenv import load_dotenv
 # Chemins (calculés depuis l'emplacement de ce fichier, donc indépendants du dossier courant)
 RACINE = Path(__file__).resolve().parent   # config.py est à la racine du projet
+load_dotenv(RACINE / ".env") 
+
 DOSSIER_CG = RACINE / "data" / "cg"
 CATALOGUE = DOSSIER_CG / "catalogue.json"
 DOSSIER_CP = RACINE / "data" / "cp"

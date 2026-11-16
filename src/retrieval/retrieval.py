@@ -3,7 +3,7 @@ Test :  python -m src.retrieval.retrieval data/cp/cp_01_luko_etendue.pdf "Suis-j
 """
 import sys
 from pathlib import Path
-
+from langsmith import traceable
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
 
@@ -17,6 +17,7 @@ def ouvrir_store() -> Chroma:
                   persist_directory=str(CHROMA_DIR))
 
 
+@traceable(name="rechercher")
 def rechercher(store, question, contrat_id, k=TOP_K):
     """Les k passages les plus proches, uniquement dans les CG du contrat. Pas de contrat -> aucune recherche."""
     if contrat_id is None:
