@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path.cwd().parent.parent))
 
-from config import DOSSIER_CP
+from config import DOSSIER_CP , PROMPT
 from src.extraction_cp.extraction import analyser_cp
 from src.retrieval.retrieval import ouvrir_store, rechercher
 
@@ -24,29 +24,7 @@ passages = rechercher(store, question, contrat_id)
 # print(contrat_id, "|", len(passages), "passages")
 
 llm_gen = ChatOllama(model=GEN_MODEL, temperature=0, num_ctx=8192, num_predict=600, reasoning=False)
-PROMPT = """Tu es un assistant qui aide un assuré à comprendre SON contrat d'assurance habitation.
 
-Règles :
-1. Réponds UNIQUEMENT à partir des documents ci-dessous. N'utilise pas tes connaissances générales.
-2. Les Conditions Particulières (CP) sont propres au client et PRÉVALENT sur les Conditions Générales (CG).
-3. Cite tes sources après chaque information : [CP] pour les conditions particulières, [1], [2]... pour les extraits des CG.
-4. Si les documents ne parlent PAS DU TOUT du sujet, réponds : « Je ne trouve pas cette information dans vos documents. »
-   S'ils y répondent EN PARTIE, donne ce qu'ils disent avec les sources, puis précise ce qui n'y figure pas.
-5. Ne conclus « oui » que si un extrait le dit clairement. Sinon, réponds « oui sous conditions » ou « à vérifier ».
-6. Réponds en français, avec exactement cette structure :
-Réponse : oui / non / oui sous conditions / à vérifier / je ne sais pas, en une phrase.
-Votre contrat : ce que prévoient les CP (garantie souscrite ou non, franchise, plafonds) [CP].
-Conditions et exclusions : ce que disent les CG, avec leurs numéros [1], [2]...
-
-=== CONDITIONS PARTICULIÈRES DU CLIENT ===
-{cp}
-
-=== EXTRAITS DES CONDITIONS GÉNÉRALES ===
-{passages}
-
-=== QUESTION ===
-{question}
-"""
 
 def formater_passages(passages):
     """Numérote chaque passage et indique sa source, pour que le LLM puisse la citer."""
