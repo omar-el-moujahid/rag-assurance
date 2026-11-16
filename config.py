@@ -57,6 +57,10 @@ Conditions et exclusions : les vitres du logement sont couvertes [2], mais pas l
 === QUESTION ===
 {question}
 """
+# config.py
+import os
 
+TRACING = "langfuse"     # "langfuse", "langsmith" ou None
+os.environ["LANGSMITH_TRACING"] = "true" if TRACING == "langsmith" else "false"
 load_dotenv()  # charge le fichier .env dans les variables d'environnement
 LANGSMITH_API_KEY = os.getenv("LANGSMITH_API_KEY")

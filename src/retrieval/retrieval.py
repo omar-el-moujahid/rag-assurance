@@ -7,6 +7,7 @@ from pathlib import Path
 from langsmith import traceable
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
+from src.tracing.tracing import tracer
 
 from config import CHROMA_DIR, COLLECTION, EMBED_MODEL, TOP_K, RERANK, RERANK_MODEL, N_CANDIDATS
 
@@ -31,7 +32,7 @@ def charger_reranker():
     return _reranker
 
 
-@traceable(name="reranker")
+@tracer("reranker")
 def reclasser(question, documents, k):
     """Le cross-encoder note chaque (question, passage), puis on garde les k meilleurs, une seule fois par page."""
     scores = charger_reranker().predict([(question, d.page_content) for d in documents])
@@ -48,7 +49,7 @@ def reclasser(question, documents, k):
     return resultat
 
 
-@traceable(name="rechercher", run_type="retriever")
+@tracer("rechercher", "retriever")
 def rechercher(store, question, contrat_id, k=TOP_K, rerank=RERANK):
     """Pas de contrat -> aucune recherche. Sinon : vecteurs filtrés, puis reranking si activé."""
     if contrat_id is None:

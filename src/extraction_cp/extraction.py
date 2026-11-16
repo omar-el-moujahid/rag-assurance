@@ -13,6 +13,7 @@ from pydantic import BaseModel, Field
 from pypdf import PdfReader
 from langchain_ollama import ChatOllama
 from langsmith import traceable
+from src.tracing.tracing import tracer
 
 from config import CATALOGUE, LLM_MODEL
 
@@ -94,7 +95,7 @@ def trouver_contrat(fiche: FicheCP, texte_cp: str) -> Optional[str]:
 
     return candidats.pop() if len(candidats) == 1 else None
 
-@traceable(name="analyser_cp")
+@tracer("analyser_cp", "chain")
 def analyser_cp(chemin):
     texte = lire_cp(chemin)
     try:

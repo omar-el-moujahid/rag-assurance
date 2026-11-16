@@ -3,6 +3,8 @@ from langchain_ollama import ChatOllama
 from config import GEN_MODEL
 from src.retrieval.retrieval import rechercher
 from langsmith import traceable
+from src.tracing.tracing import callbacks
+from src.tracing.tracing import tracer
 
 MESSAGE_HORS_BASE = ("Les Conditions Générales de votre contrat ne sont pas dans notre base. "
                      "Je ne peux pas répondre de façon fiable : déposez vos CG ou contactez votre assureur.")
@@ -50,7 +52,7 @@ def ajouter_sources(texte_reponse, passages):
             lignes.append(f"[{n}] ⚠️ citation inexistante")
     return texte_reponse + ("\n\nSources :\n" + "\n".join(lignes) if lignes else "")
 
-@traceable(name="repondre", run_type="llm")
+@tracer("repondre")
 def repondre(store, question, texte_cp, contrat_id):
     """Stratégie stricte -> recherche filtrée -> prompt -> LLM -> sources ajoutées par le code."""
     if contrat_id is None:                                   # pas de contrat : ni recherche ni LLM
@@ -59,7 +61,7 @@ def repondre(store, question, texte_cp, contrat_id):
     debut = time.time()
     passages = rechercher(store, question, contrat_id)
     prompt = PROMPT.format(cp=texte_cp, passages=formater_passages(passages), question=question)
-    texte = llm_gen.invoke(prompt).content
+    texte = llm_gen.invoke(prompt, config={"callbacks": callbacks()}).content
     return {"reponse": ajouter_sources(texte, passages),
             "passages": passages,
             "temps": time.time() - debut}
@@ -75,7 +77,7 @@ def repondre(store, question, texte_cp, contrat_id):
 #     print(f"temps de recherche : {resultat['temps']:.1f} s")
 #     wait_for_all_tracers()
 
-@traceable(name="demande_complete")
+@tracer("demande_complete", "chain")
 def demande_complete(chemin_cp, question):
     store = ouvrir_store()
     texte_cp, fiche, contrat_id = analyser_cp(chemin_cp)
